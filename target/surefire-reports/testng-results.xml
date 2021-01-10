@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="35" passed="30" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-10T08:37:11Z" name="CalculatorSuite" finished-at="2021-01-10T08:37:13Z" duration-ms="2033">
+    <groups>
+    </groups>
+    <test started-at="2021-01-10T08:37:11Z" name="Addition" finished-at="2021-01-10T08:37:13Z" duration-ms="2033">
+      <class name="DivisionTest">
+        <test-method signature="testCase(double, double, double)[pri:0, instance:DivisionTest@503d687a]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.714]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:DivisionTest@503d687a]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:DivisionTest@503d687a]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.076]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:DivisionTest@503d687a]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.452]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testException()[pri:0, instance:DivisionTest@503d687a]" started-at="2021-01-10T08:37:11Z" name="testException" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at DivisionTest.testException(DivisionTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+      <class name="SquareRootTest">
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareRootTest@3972a855]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareRootTest@3972a855]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.549]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareRootTest@3972a855]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:12Z" duration-ms="1002" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testng.internal.TestNGMethod.testCase() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.testCase() didn't finish within the time-out 1000
+	at app//Calculator.squareRoot(Calculator.java:33)
+	at app//SquareRootTest.testCase(SquareRootTest.java:8)
+	at java.base@15.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@15.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base@15.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@15.0.1/java.lang.reflect.Method.invoke(Method.java:564)
+	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at app//org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at app//org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.base@15.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@15.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testNegative()[pri:0, instance:SquareRootTest@3972a855]" started-at="2021-01-10T08:37:12Z" name="testNegative" finished-at="2021-01-10T08:37:13Z" duration-ms="1002" status="FAIL">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Expected exception java.lang.ArithmeticException but got org.testng.TestException: 
+Expected exception java.lang.ArithmeticException but got org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.testNegative() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Expected exception java.lang.ArithmeticException but got org.testng.TestException: 
+Expected exception java.lang.ArithmeticException but got org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.testNegative() didn't finish within the time-out 1000
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1459)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1222)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+Caused by: org.testng.TestException: 
+Expected exception java.lang.ArithmeticException but got org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.testNegative() didn't finish within the time-out 1000
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1459)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:740)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	... 25 more
+Caused by: org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.testNegative() didn't finish within the time-out 1000
+	at app//Calculator.squareRoot(Calculator.java:33)
+	at app//SquareRootTest.testNegative(SquareRootTest.java:21)
+	at java.base@15.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@15.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base@15.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@15.0.1/java.lang.reflect.Method.invoke(Method.java:564)
+	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at app//org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at app//org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.base@15.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@15.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+      <class name="SquareTest">
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareTest@6a6afff2]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareTest@6a6afff2]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.76]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareTest@6a6afff2]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareTest@6a6afff2]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double)[pri:0, instance:SquareTest@6a6afff2]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29.16]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="AdditionTest">
+        <test-method signature="testCase(double, double, double)[pri:0, instance:AdditionTest@2abf4075]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:AdditionTest@2abf4075]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.7]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:AdditionTest@2abf4075]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:AdditionTest@2abf4075]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5.8]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:AdditionTest@2abf4075]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.8]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="MultiplicationTest">
+        <test-method signature="testCase(double, double, double)[pri:0, instance:MultiplicationTest@6a370f4]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:MultiplicationTest@6a370f4]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:MultiplicationTest@6a370f4]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12.72]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:MultiplicationTest@6a370f4]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-14.04]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:MultiplicationTest@6a370f4]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="SubtractTest">
+        <test-method signature="testCase(double, double, double)[pri:0, instance:SubtractTest@62e7f11d]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.9]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:SubtractTest@62e7f11d]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:SubtractTest@62e7f11d]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:SubtractTest@62e7f11d]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-8]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(double, double, double)[pri:0, instance:SubtractTest@62e7f11d]" started-at="2021-01-10T08:37:11Z" name="testCase" finished-at="2021-01-10T08:37:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5.8]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="PrimeTest">
+        <test-method signature="testCase(int, boolean)[pri:0, instance:PrimeTest@770d3326]" started-at="2021-01-10T08:37:13Z" name="testCase" finished-at="2021-01-10T08:37:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(int, boolean)[pri:0, instance:PrimeTest@770d3326]" started-at="2021-01-10T08:37:13Z" name="testCase" finished-at="2021-01-10T08:37:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(int, boolean)[pri:0, instance:PrimeTest@770d3326]" started-at="2021-01-10T08:37:13Z" name="testCase" finished-at="2021-01-10T08:37:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testCase(int, boolean)[pri:0, instance:PrimeTest@770d3326]" started-at="2021-01-10T08:37:13Z" name="testCase" finished-at="2021-01-10T08:37:13Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:281)
+	at org.testng.Assert.assertEquals(Assert.java:291)
+	at PrimeTest.testCase(PrimeTest.java:8)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testCase(int, boolean)[pri:0, instance:PrimeTest@770d3326]" started-at="2021-01-10T08:37:13Z" name="testCase" finished-at="2021-01-10T08:37:13Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:281)
+	at org.testng.Assert.assertEquals(Assert.java:291)
+	at PrimeTest.testCase(PrimeTest.java:8)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testCase(int, boolean)[pri:0, instance:PrimeTest@770d3326]" started-at="2021-01-10T08:37:13Z" name="testCase" finished-at="2021-01-10T08:37:13Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:281)
+	at org.testng.Assert.assertEquals(Assert.java:291)
+	at PrimeTest.testCase(PrimeTest.java:8)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
